@@ -20,31 +20,68 @@ html {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
-    color: red;
+    color: #555;
     margin: 0;
 
 }
 
+a {
+    text-decoration: none;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+    /* Pour les écrans avec une taille minimal de 750px alors j'applique ce CSS, 
+    en dessous ce CSS ne marchera pas pour le container */
+
 @media screen and (min-width:750px) {
 
     .container {
-        max-width: 50%;
+        max-width: 1200px;
+        background: black;
+        margin: 0 auto;
+        padding: 2rem;
     }
-    
 }
-
-
 
 /*------------------------ SECTION ------------------------*/
 
-
 .header {
-    display: inline-block;
     background-color: #FFF;
-    border-bottom: 1px solid #EEE;
-
+    border-bottom: 1px solid #EEE;    
 }
 
+.header a {
+    color: #333;
+}
+
+.header .logo {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.header li {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 .5rem;
+}
 
 .image__profil {
     height: 453px;
