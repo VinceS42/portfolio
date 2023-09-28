@@ -1,0 +1,51 @@
+/*------------------------ BASE ------------------------*/
+
+
+* {
+    box-sizing: border-box;
+
+    /* margin: 0; padding: 0; bonne méthode reset tout le html, on peut aller sur google et taper reset CSS */
+}
+
+html {
+    /*  en général, on reset la taille a 62.5% car cela réféfini la fonte size de 
+    base a 10 pixel plus siimple pour générer notre font-size différement selon les éléments 
+    qu'on souhaite */
+
+    /* Comme ça 1.6rem est = a 16px */
+
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    color: red;
+    margin: 0;
+
+}
+
+@media screen and (min-width:750px) {
+
+    .container {
+        max-width: 50%;
+    }
+    
+}
+
+
+
+/*------------------------ SECTION ------------------------*/
+
+
+.header {
+    display: inline-block;
+    background-color: #FFF;
+    border-bottom: 1px solid #EEE;
+
+}
+
+
+.image__profil {
+    height: 453px;
+}
