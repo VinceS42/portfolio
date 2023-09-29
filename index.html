@@ -18,7 +18,7 @@
 
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container d-flex">
             <div class="logo">
                 Vincent Fayon
             </div>
@@ -26,7 +26,7 @@
                 <ul class="menu list-unstyled">
                     <li><a href="#hero">Accueil</a></li>
                     <li><a href="#about">A propos</a></li>
-                    <li><a href="#services">Sevices</a></li>
+                    <li><a href="#services">Services</a></li>
                     <li><a href="#skills">Compétences</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -35,11 +35,11 @@
             <div class="right">
                 <ul class="socials list-unstyled">
                     <li><a href="https://www.linkedin.com/in/vincent-fayon-3270b2198/" target="_blank"><i
-                                class="fa-brands fa-linkedin fa-xl"></i></a></li>
-                    <li><a href="https://github.com/VinceS42" target="_blank"><i class="fa-brands fa-github fa-xl"
+                                class="icon fa-brands fa-linkedin "></i></a></li>
+                    <li><a href="https://github.com/VinceS42" target="_blank"><i class="icon fa-brands fa-github "
                                 style="color: #000000;"></i></a></li>
                 </ul>
-                <button class="burger"><span class="bar">-</span></button>
+                <button class="burger"><span class="bar"></span></button>
             </div>
         </div>
     </header>
@@ -50,12 +50,11 @@
                 <div class="hero__item left">
                     <span>Développeur Web Junior</span>
                     <h1 class="title">Hello, je suis Vincent Fayon de Saint-Etienne</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis blanditiis illo minima
-                        aperiam, animi architecto!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis blanditiis </p>
                 </div>
                 <div class="hero__item right">
                     <div class="hero__avatar">
-                        <img src="./assets/img/android-chrome-192x192.png" alt="avatar Vincent Fayon">
+                        <img src="./assets/img/Cartoonify.png" alt="avatar Vincent Fayon">
                     </div>
                 </div>
             </div>
@@ -65,7 +64,9 @@
         <div class="container">
             <div class="grid">
                 <div class="grid__item">
-                    <img class="image__profil" src="./assets/img/Vince.JPG" alt="photo">
+                    <div class="photo">
+                        <img class="image__profil" src="./assets/img/Vince.JPG" alt="photo">
+                    </div>
                 </div>
                 <div class="grid__item">
                     <h2 class="section-title">A propos</h2>
@@ -75,10 +76,10 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus voluptatibus iure fuga
                         labore saepe? Quod quo quasi nihil atque illo minima pariatur dolore voluptatem beatae.</p>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                        <li>Liste</li>
+                        <li>Liste</li>
                     </ul>
                 </div>
             </div>
@@ -92,81 +93,91 @@
             </div>
             <div class="grid">
                 <div class="grid__item">
-                    <div class="services">
+
+                    <div class="service">
                         <div class="service__icon">
-                            <i class="fa-regular fa-lightbulb fa-2xl"></i>
+                            <i class="fa-regular fa-lightbulb "></i>
                         </div>
-                        <div class="servic__content">
+                        <div class="service__content">
                             <h3>GESTION DE PROJET</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
                         </div>
                     </div>
-                    <div class="services">
+
+                    <div class="service">
+
                         <div class="service__icon">
-                            <i class="fa-regular fa-pen-to-square fa-2xl"></i>
+                            <i class="fa-regular fa-pen-to-square "></i>
                         </div>
-                        <div class="servic__content">
+                        <div class="service__content">
                             <h3>INTEGRATION WEB</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
                         </div>
                     </div>
-                    <div class="services">
+
+                    <div class="service">
                         <div class="service__icon">
-                            <i class="fa-solid fa-screwdriver-wrench fa-2xl"></i>
+                            <i class="fa-solid fa-screwdriver-wrench "></i>
                         </div>
-                        <div class="servic__content">
+                        <div class="service__content">
                             <h3>DEVELOPPEMENT SPECIFIQUE</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
                         </div>
                     </div>
-                    <div class="services">
+
+                    <div class="service">
                         <div class="service__icon">
-                            <i class="fa-regular fa-square-check fa-2xl"></i>
+                            <i class="fa-regular fa-square-check "></i>
                         </div>
-                        <div class="servic__content">
+                        <div class="servie__content">
                             <h3>REFERENCEMENT NATUREL</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
                         </div>
                     </div>
                 </div>
-                <div class="services">
-                    <div class="service__icon">
-                        <i class="fa-solid fa-pencil fa-2xl"></i>
+
+                <div class="grid__item">
+
+                    <div class="service">
+                        <div class="service__icon">
+                            <i class="fa-solid fa-pencil "></i>
+                        </div>
+                        <div class="service__content">
+                            <h3>CONCEPTION GRAPHIQUE ET DESIGN</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
+                        </div>
                     </div>
-                    <div class="servic__content">
-                        <h3>CONCEPTION GRAPHIQUE ET DESIGN</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
+
+                    <div class="service">
+                        <div class="service__icon">
+                            <i class="fa-solid fa-rotate "></i>
+                        </div>
+                        <div class="servic__content">
+                            <h3>DYNAMISME DES PAGES</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+                        <div class="service__icon">
+                            <i class="fa-solid fa-user-gear "></i>
+                        </div>
+                        <div class="servie__content">
+                            <h3>INTERFACE D'ADMINISTRATION</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
+                        </div>
+                    </div>
+
+                    <div class="service">
+                        <div class="service__icon">
+                            <i class="fa-solid fa-mobile-screen-button "></i>
+                        </div>
+                        <div class="service__content">
+                            <h3>RESPONSIVE DESIGN</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="services">
-                    <div class="service__icon">
-                        <i class="fa-solid fa-rotate fa-2xl"></i>
-                    </div>
-                    <div class="servic__content">
-                        <h3>DYNAMISME DES PAGES</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
-                    </div>
-                </div>
-                <div class="services">
-                    <div class="service__icon">
-                        <i class="fa-solid fa-user-gear fa-2xl"></i>
-                    </div>
-                    <div class="servic__content">
-                        <h3>INTERFACE D'ADMINISTRATION</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
-                    </div>
-                </div>
-                <div class="services">
-                    <div class="service__icon">
-                        <i class="fa-solid fa-mobile-screen-button fa-2xl"></i>
-                    </div>
-                    <div class="servic__content">
-                        <h3>RESPONSIVE DESIGN</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, illum.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid__item">
             </div>
         </div>
     </section>
