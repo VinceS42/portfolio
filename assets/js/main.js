@@ -74,7 +74,6 @@ function tabsFilters() {
 
         });
     })
-    showProjects();
 }
 
 tabsFilters();
